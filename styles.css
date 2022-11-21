@@ -9,6 +9,27 @@ form {
     justify-items: end;
 }
 
+label span {
+    grid-column: 1/3;
+    text-align: right;
+    background-color: rgb(243, 84, 84);
+    color: white;
+    border-radius: 8px;
+    padding: .3rem;
+    display: none;
+}
+
+label span.visible {
+    display: inline;
+}
+
+label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2rem;
+    align-items: center;
+}
+
 form > button {
     justify-self: center;
 }
