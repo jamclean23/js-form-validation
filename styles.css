@@ -1,5 +1,10 @@
 /*CSS Stylesheet*/
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 form {
     width: 20rem;
     padding: 2rem;
@@ -7,11 +12,12 @@ form {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: end;
+    justify-self: center;
 }
 
 label span {
     grid-column: 1/3;
-    text-align: right;
+    text-align: center;
     background-color: rgb(243, 84, 84);
     color: white;
     border-radius: 8px;
@@ -32,4 +38,12 @@ label {
 
 form > button {
     justify-self: center;
+}
+
+img {
+    display: none;
+}
+
+img.visible {
+    display: block;
 }
