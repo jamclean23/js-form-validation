@@ -19,7 +19,7 @@ function validatePassword (event) {
 }
 
 function validatePasswordConfirm (event) {
-    
+
 }
 
 function submitForm (event) {
@@ -45,6 +45,6 @@ const password = document.querySelector('#password');
 password.addEventListener('input', validatePassword);
 
 
-const passwordConfirm = document.querySelector('passwordConfirm');
+const passwordConfirm = document.querySelector('#passwordConfirm');
 passwordConfirm.addEventListener('input', validatePasswordConfirm);
 
