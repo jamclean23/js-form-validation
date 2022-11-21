@@ -1,0 +1,14 @@
+/*CSS Stylesheet*/
+
+form {
+    width: 20rem;
+    padding: 2rem;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+}
+
+form > button {
+    justify-self: center;
+}
